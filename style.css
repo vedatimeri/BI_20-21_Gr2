@@ -1,0 +1,253 @@
+body {
+  background-color: #3d585c;
+  margin: 40px 25px 40px 25px;
+}
+
+header {
+  margin-top: -40px;
+  height: 125px;
+}
+.left {
+  float: left;
+  /* border: 1px solid red; */
+  margin-bottom: 10px;
+}
+.right {
+  float: right;
+  /* border: 1px solid blue; */
+  margin-top: 45px;
+}
+
+.left h1 {
+  color: #fff;
+  font-size: 36pt;
+}
+.left p {
+  color: #fff;
+  font-size: 12pt;
+  margin-top: -25px;
+}
+
+.menu-top {
+  color: white;
+  margin-left: 125px;
+}
+
+.menu-top a {
+  color: white;
+  text-decoration: none;
+}
+
+input[type="search"] {
+  border: 1px solid #3e3e3e;
+  background-color: #304649;
+  margin-top: 10px;
+  padding: 7px;
+  font-size: 15px;
+  font-family: "Georgia", Arial, sans-serif;
+  color: white;
+  width: 300px;
+}
+input[type="search"]::placeholder {
+  color: white;
+}
+input[type="submit"] {
+  background-color: #3e3e3e;
+  margin-left: -5px;
+  margin-top: 10px;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid #3e3e3e;
+  color: white;
+}
+
+.menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #373737;
+  padding: 0;
+}
+
+.menu li {
+  padding: 5px;
+  margin: 5px;
+  text-transform: uppercase;
+  float: left;
+}
+.menu li a {
+  display: block;
+  color: white;
+  font-size: 12pt;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.baner {
+  background-color: black;
+  width: 1299px;
+  height: 500px;
+  margin-top: -21px;
+}
+#fotoja img {
+  width: 1299px;
+  height: 485px;
+}
+
+/* Imazhet */
+.imazhet {
+  width: 70px;
+  background: red;
+}
+
+/* Footer lists */
+
+#linksfooter {
+  background: #f2f2f2 !important;
+  height: 370px;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  float: left;
+  width: 25%;
+  height: 300px;
+}
+
+.container ul li a {
+  color: #660000;
+  text-decoration: none;
+}
+.first,
+.second,
+.third,
+.fourth,
+ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.textsection {
+  font-size: 18pt;
+  color: #666666;
+  padding: 10px;
+  font-weight: 300;
+  margin: 20px;
+  margin-left: 25px;
+}
+hr {
+  border-top: 1px solid #e2e2e2;
+  margin-left: 37px;
+}
+
+footer {
+  height: 65px;
+  background-color: #1f1f1f;
+  margin-top: -15px;
+}
+
+.footer p {
+  font-size: 12pt;
+  padding: 20px;
+  color: #727272;
+  margin: 5px;
+  margin-left: 37px;
+}
+
+#butonilogin {
+  background-color: #4caf50;
+  color: orange;
+  padding: 15px;
+  margin: 15px 0px;
+  border: none;
+  cursor: pointer;
+  width: 36%;
+}
+
+input[type="email"],
+input[type="password"],
+.emailClass {
+  margin: 8px 0;
+  padding: 12px 20px;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+#butonilogin:hover {
+  opacity: 0.7;
+}
+
+.form {
+  padding: 25px;
+  background-color: lightblue;
+}
+
+.loginTitle {
+  font-size: 36px;
+  text-align: center;
+  color: #666666;
+}
+.logohu {
+  width: 1299px;
+  height: 600px;
+  background-color: #f2f2f2;
+  margin-top: -31px;
+}
+#form-login {
+  margin-left: 509px;
+  margin-top: 104px;
+}
+
+/* Gallery */
+.gallery-page {
+  height: 650px;
+  background-color: #f2f2f2;
+  margin-top: -30px;
+}
+.gallery-title {
+  font-size: 36px;
+  text-align: center;
+  color: #666666;
+}
+.gallery {
+  margin-top: 70px;
+  margin-left: 125px;
+}
+.gallery1 {
+  margin-top: 30px;
+  margin-left: 125px;
+}
+.gallery a img {
+  margin: 5px;
+}
+
+.gallery1 a img {
+  margin: 5px;
+}
+
+.java {
+  height: 500px;
+  background-color: #f2f2f2;
+  margin-top: -22px;
+}
+.lokacioni {
+  margin-left: 125px;
+}
+
+.try {
+  margin-left: 125px;
+}
+
+.date {
+  margin-left: 125px;
+}
+
+div .prapavija {
+  height: 300px;
+  background-color: #666666;
+}

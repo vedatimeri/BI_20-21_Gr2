@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="image-style.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <header>
+        <div class="left">
+        <h1>Open University</h1>
+        <p>Free PSD Website Template</p>
+        </div>
+        <div class="right">
+        <div class="menu-top">
+            <a href="#">A-Z Index</a> | <a href="studentlogin.html">Student Login</a> | <a href="loginstaff.html" onclick="openLoginForm()">Staff Login</a>
+        </div>
+
+        <div class="search">
+            <form action="">
+                <input type="search" name="search" id="search" placeholder="Search Our Website...">
+                <input type="submit" value="SEARCH">
+                </form>
+        </div>
+    </div>
+    </header>
+    
+        <section class="menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Style Demo</a></li>
+                <li><a href="#">Full width</a></li>
+                <li><a href="#">Dropdown</a></li>
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="gallery.html">Gallery </a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="java">
+
+        <div class="lokacioni">
+         <p>Klikoni butonin per te marre kordinatat e juaja</p>
+
+         <button onclick="merreLokacionin()">Kliko per te gjetur kordinantat</button>
+         <p id="lokacioni"></p>
+       </div>
+
+       <hr>
+
+       <div class="try">
+      <p>Kjo pjese per try dhe catch</p>
+       <p id="trycatch"></p>
+    </div>
+
+    <hr>
+    <br>
+
+     <div class="date">
+      <p>Kjo pjese per date</p>
+      Ketu do të shfaqet cili muaj eshte:  <p id="date"></p>
+    </div>
+
+    </section>
+
+
+   
+    <footer class="footer">
+        <p>Copyright © <script type="text/javascript">
+            document.write(new Date().getFullYear());
+            </script> All Rights Reserved - Open University.  </p>
+    </footer>
+
+   </body>
+   </html>   
+
+   <script>
+    var lokacioni = document.getElementById("lokacioni");
+    
+    function merreLokacionin() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(kordinantat);
+      } else { 
+        location.innerHTML = "Geolocation nuk mbeshtetet nga ky browser.";
+      }
+    }
+    
+    function kordinantat(pozita) {
+      lokacioni.innerHTML = "Latitude: " + pozita.coords.latitude + 
+      "<br>Longitude: " + pozita.coords.longitude;
+    }
+    </script>
+
+<!-- Try and catch -->
+<script>
+try {
+ alerti1("Testi per aadlert e cila eshte e padefinuar");
+}
+catch(err) {
+ document.getElementById("trycatch").innerHTML = err.message;
+}
+</script>
+
+<!-- Date -->
+<script>
+var d = new Date();
+var muajt = ["Janar","Shkurt","Mars","Prill","Maj","Qeshor","Korrik","Gusht","Shtator","Tetor","Nentor","Dhjetor"];
+document.getElementById("date").innerHTML = muajt[d.getMonth()];
+</script>

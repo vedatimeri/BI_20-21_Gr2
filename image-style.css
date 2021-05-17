@@ -1,0 +1,227 @@
+.background{
+    background-color:#E2E2E2;
+    width: 1299px;
+    height: 900px;
+}
+
+.whitebackground{
+    margin-top: 10px;
+    background-color: white;
+    width: 1299px;
+    height: 600px;
+
+
+
+}
+.img-table{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+
+}
+
+.photo-table {
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-right: 80px;
+}
+
+.img-table img{
+        width: 250px;
+        border: 2px solid #ddd;
+        padding: 5px;
+        height: 160px;
+        
+        
+        margin: 10px;
+        margin-bottom: 4px;
+        }
+
+
+
+
+
+     .c1{
+        margin-top: 50px;
+        margin-left: 64px;
+        margin-right: 10px
+
+     }
+     .c1 img{
+        width: 250px;
+        border: 2px solid #ddd;
+        padding: 5px;
+        height: 100px;
+        
+        
+        
+        margin: 1px;
+        margin-bottom: 4px;
+ }
+ .c1  p{
+     
+     text-align: left ;
+     color: gray;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    
+ }
+ .c1 th{
+    text-align: left;
+    color: gray;
+    font-size: 25px;
+    margin-top: 20px;
+
+
+ }
+
+
+
+ /* .Column2 th{
+     
+    text-align: left ;
+} */
+.Column2 th{
+     
+    text-align: start;
+    color: gray;
+    font-size:25px;
+    margin-bottom: 10px;
+    
+   
+
+}
+.Column2 p{
+    color:#5A2B32B;
+   margin-bottom: 10px;
+   
+}
+.Column2 label{
+    margin-bottom: -30px;
+}
+.C3 th{
+
+    text-align: start;
+    color: gray;
+    font-size: 25px;
+    
+}
+.C3 video{
+   
+   
+   margin: 10px;
+  margin-left: -3px;
+  background-color: black;
+
+    
+}
+
+ 
+        
+
+.photos{
+    margin-top: -100px;
+    background-color: white;
+    width: 1299px;
+    height: 320px;
+    margin-bottom: 1px;
+}
+
+.img-table p{
+    color:5A2B32;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-variant: normal;
+}
+
+.photos2{
+    margin-top: 20px;
+    width: 1469;
+    height: 660px;
+    background-color: white;
+}
+
+
+.img-table2{
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-right: 80px;
+
+
+}
+
+/* .form-1{
+    width: auto;
+    height: 900px;
+    margin: 30px;
+    color: red;
+}
+.form-2{
+    width: auto;
+    height: 500;
+    margin: 30px;
+    color: grey;
+}
+.form-3{
+    width: auto;
+    height: 500;
+    margin: 30px;
+    color: blue;
+} */
+
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    height: 600px;
+
+}
+.Column {
+    display: table-cell;
+    background-color: white; /*Optional*/
+    height: 200px;
+}
+.Column2{
+    display: table-cell;
+    background-color: white; /*Optional*/
+    height: 200px;
+    width: 550px;
+    }
+
+    .Column2 img{
+        width: 150px;
+        border: 2px solid #ddd;
+        padding: 5px;
+        height: 160px;
+        margin-left: -10px;
+        
+        
+        margin: 10px;
+        margin-bottom: 4px;
+        margin-top: -15px;
+
+    }
+    .C3{
+        display: table-cell;
+        background-color: white; /*Optional*/
+        height: 780px;
+
+    }
+    .C3 a{
+        color: 88414B;
+    }
+    .Column2 tr{
+        margin: 10px;
+    }
+    
+.Column td th{
+    margin-top: 40px;
+}
+
+.Column table{
+    margin-top: -2px;
+}
